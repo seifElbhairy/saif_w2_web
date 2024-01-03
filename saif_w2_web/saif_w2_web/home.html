@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   
+   <style>
+    
+   </style>
+   <script>
+       function slider(i){
+           document.getElementById('table').style.marginLeft = `${-100 * i}vw`;
+       }
+   </script>
+</head>
+<body>
+ 
+   <div>
+       <nav>
+           <ul>
+               <li><button onclick="slider(0)">CLOTHES</button></li>
+               <li><button onclick="slider(1)">SHOSE</button></li>
+               <li><button onclick="slider(2)">BAGS</button></li>
+               <li><button onclick="slider(3)">WHATCHES</button></li>
+           </ul>
+       </nav>
+   </div>
+   
+   <div class="container">
+       <div class="slider" id="slider">
+           <table id="table">
+               <tr>
+                   <td><img class="img1" src="image/air.png" alt=""><button class="btn">Buy Now!</button></td>
+                   <td><img class="img2" src="image/blazer.png" alt=""><button class="btn">Buy Now!</button><br></td>
+                   <td><img class="img3" src="image/jordan.png" alt=""><button class="btn">Buy Now!</button></td>
+                   
+                   <td><img class="img1" src="image/hippie.png" alt=""><button class="btn">Buy Now!</button></td>
+                   <td><img class="img2" src="image/hippie2.png" alt=""><button class="btn">Buy Now!</button><br></td>
+                   <td><img class="img3" src="image/crater2.png" alt=""><button class="btn">Buy Now!</button></td>
+       
+                   <td><img class="img1" src="image/crater.png" alt=""><button class="btn">Buy Now!</button></td>
+                   <td><img class="img2" src="image/jordan2.png" alt=""><button class="btn">Buy Now!</button><br></td>
+                   <td><img class="img3" src="image/hippie.png" alt=""><button class="btn">Buy Now!</button></td>
+       
+                   <td><img class="img1" src="image/air2.png" alt=""><button class="btn">Buy Now!</button></td>
+                   <td><img class="img2" src="image/blazer.png" alt=""><button class="btn">Buy Now!</button><br></td>
+                   <td><img class="img3" src="image/contact.png" alt=""><button class="btn">Buy Now!</button></td>
+               </tr>
+           </table>
+       </div>
+   </div>
+</body>
+</html>

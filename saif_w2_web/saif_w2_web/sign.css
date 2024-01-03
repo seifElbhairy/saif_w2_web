@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+ table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px;
+ }
+ .signup{
+background-color: blue;
+
+ }

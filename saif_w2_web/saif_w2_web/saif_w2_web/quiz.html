@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="php1">
+        <h6>What is your favourit animal?</h6>
+        <ul>
+            <li><input id="yes1" type="radio" name="a1">Yes</li>
+            <li><input id="no1" type="radio" name="a1">No</li>
+            <a href="#php2" onclick="click2()"><input type="button" value="Next"></a>
+        </ul>
+    </div>
+    <div id="php2" style="display: none;">
+        <h6>What are you most thankful for?</h6>
+        <ul>
+            <li><input type="radio" id="yes2" name="a2">Yes</li>
+            <li><input id="no2" type="radio" name="a2">No</li>
+            <a href="#php3" onclick="click3()"><input type="button" value="Next"></a>
+            <a href="#php1" onclick="click1()"><input type="button" value="past"></a>
+        </ul>
+    </div>
+    <div id="php3" style="display: none;">
+        <h6>What do you feel most passionate about?</h6>
+        <ul>
+            <li><input type="radio" id="yes3" name="a3">Yes</li>
+            <li><input id="no3" type="radio" name="a3">No</li>
+            <a href="#php4" onclick="click4()"><input type="button" value="Next"></a>
+            <a href="#php2" onclick="click2()"><input type="button" value="past"></a>
+        </ul>
+    </div>
+    <div id="php4" style="display: none;">
+        <h6>What does your dream life look like?</h6>
+        <ul>
+            <li><input id="yes4" type="radio" name="a4">Yes</li>
+            <li><input type="radio" id="no4" name="a4">No</li>
+        <a href="#000" onclick="cal()"><input type="button" value="Submit"></a>
+            <a href="#php3" onclick="click3()"><input type="button" value="past"></a>
+        </ul>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

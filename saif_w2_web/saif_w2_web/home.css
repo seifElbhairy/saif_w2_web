@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-skyler-ewing-10449329\ \(Original\).mp4);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li button{
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+nav ul li button:focus{
+    background-color: #fff;
+    color: green;
+    border-radius: 20px;
+}
+nav ul li button:hover{
+    background-color: #fff;
+    color: green;
+    border-radius: 20px;
+}
+img{
+    background-color: transparent;
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.btn{
+    background-color: green;
+    color: #ffffff;
+    display: flex;
+    width: 300px;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    border-radius: 40px;
+   
+   margin-left: 100PX;
+   margin-top:  -10px;
+}
+.btn:hover{
+    background-color: black;
+    color: green;
+
+}
+.slider table{
+   width: 400vw; 
+   transition: 1s;
+}     
+.container{
+    width: 100vw;
+    overflow: hidden;
+}

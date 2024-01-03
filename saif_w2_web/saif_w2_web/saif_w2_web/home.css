@@ -1,0 +1,58 @@
+ body{
+    background-color: greenyellow;
+}
+.wep{
+    background-color: aqua;
+    height: 60px;
+}
+.app{
+    margin-left: 36vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+}
+.offerr{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sliderimg{
+    width: 50%;
+    margin-left: 20vw;
+}
+.slidertitle{
+ margin-bottom: 60vw;
+}
+
+.slider{
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+   
+}
+
+.slid{
+    width: 1000%;
+    height: 50%;
+    display: flex;
+}
+.p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.butbutton{
+    margin-bottom: 5vw;
+    color:blueviolet;
+}
+
+body{
+    background-color: greenyellow;
+}
+.wep{
+    background-color: aqua;
+    height: 60px;
+}
+.p{
+    height: 100px;
+    margin-bottom: 10vw;
+}

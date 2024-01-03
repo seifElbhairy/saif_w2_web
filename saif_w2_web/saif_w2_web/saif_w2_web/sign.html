@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sign.css">
+  <title>Signup</title>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th style="background-color: blue;">Signup</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td><input type="text" id="name"></td>
+  </tr>
+  <tr>
+    <td>age</td>
+    <td><input type="text" id="age"></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="password" id="password"></td>
+  </tr>
+  <tr>
+    <td>Confirm Password</td>
+    <td><input type="password" id="confirmPassword"></td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><button onclick="signup()">Sign Up</button></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th style="background-color: blue;">Sign In</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><input type="text" id="namein"></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="password" id="signInPassword"></td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>
+      <label><input type="radio" name="signInGender" value="male"> Male</label>
+      <label><input type="radio" name="signInGender" value="female"> Female</label>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><button onclick="signIn()">Sign In</button></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="#" onclick="showResetPasswordForm()">Forgot Password?</a></td>
+  </tr>
+</table>
+
+<div class="reset-password-form">
+  <h2 style="background-color: blueviolet;">Reset Password</h2>
+  <p>Enter your email and set a new password:</p>
+  <table>
+    <tr>
+      <td>name</td>
+      <td><input type="text" id="resetEmail"></td>
+    </tr>
+    <tr>
+      <td>New Password</td>
+      <td><input type="password" id="newPassword"></td>
+    </tr>
+    <tr>
+      <td>Confirm New Password</td>
+      <td><input type="password" id="confirmNewPassword"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button onclick="update()">update</button></td>
+    </tr>
+  </table>
+</div>
+<script src="sign.js"></script>
+</body>
+</html>
